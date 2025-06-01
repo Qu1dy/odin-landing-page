@@ -56,3 +56,14 @@ body {
 .info {
     padding: 16px;
 }
+
+.main-text {
+    margin-bottom: 0px;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary-text {
+    margin-top: 4px;
+}
