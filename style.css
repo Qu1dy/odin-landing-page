@@ -6,6 +6,7 @@ html {
 
 
 body {
+    zoom: 0.9;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
