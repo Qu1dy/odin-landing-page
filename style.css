@@ -1,3 +1,8 @@
+html {
+    background-color: green;
+}
+
+
 body {
     display: flex;
     flex-direction: column;
