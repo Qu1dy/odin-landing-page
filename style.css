@@ -1,16 +1,19 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     font-family: Roboto;
+    min-width: 100vh;
     color: white;
+    margin: 0px;
 }
 
-a {
+.links a {
     text-decoration: none;
     color: #E5E7EB
 }
 
-ul {
+.links {
     list-style-type: none;
 }
 
