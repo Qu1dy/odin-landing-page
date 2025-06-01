@@ -1,6 +1,6 @@
 html {
     background-color: green;
-    font-family: Roboto;
+    font-family: 'Roboto';
     color: white;
 }
 
@@ -15,6 +15,7 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: 900;
 }
 
 .logo, .main-text {
@@ -43,7 +44,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -52,8 +53,8 @@ body {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 48px;
+    justify-content: space-around;
+    padding: 64px;
 }
 
 
@@ -78,6 +79,7 @@ body {
 
 .sign-up {
     color: white;
+    font-weight: 900;
     text-align: center;
     padding: 8px 48px;
     border-radius: 8px;
