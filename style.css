@@ -1,6 +1,7 @@
 html {
     background-color: green;
     font-family: Roboto;
+    color: white;
 }
 
 
@@ -9,14 +10,17 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     min-width: 100vh;
-    color: white;
     margin: 0px;
 }
 
 .logo {
     font-size: 24px;
+}
+
+.logo, .main-text {
     color: #F9FAF8;
 }
+
 
 .links a {
     padding: 0 8px;
@@ -56,10 +60,21 @@ body {
 .main-text {
     margin-bottom: 0px;
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
 }
 
 .secondary-text {
     margin-top: 4px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+}
+
+.sign-up {
+    color: white;
+    text-align: center;
+    padding: 8px 48px;
+    border-radius: 8px;
+    border: none;
 }
