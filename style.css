@@ -29,9 +29,20 @@ body {
     list-style-type: none;
 }
 
+.header, .hero {
+    background-color: #1F2937;
+}
+
+
 .header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
 }
