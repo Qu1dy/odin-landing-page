@@ -117,6 +117,7 @@ body {
 
 .info {
     max-width: 150px;
+    align-items: center;
 }
 
 .info-text {
