@@ -9,6 +9,10 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     margin: 0px;
+    background-image: url('./images/SyndraWallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .logo {
@@ -39,9 +43,7 @@ body {
     color: #E5E7EB;
 }
 
-.header, .hero {
-    background-color: #1F2937;
-}
+
 
 
 .header, .hero {   
@@ -98,7 +100,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(145deg, #0e0b16, #301934, #5f27cd);
     padding-bottom: 48px;
     padding-top: 24px;
 }
@@ -147,7 +148,6 @@ button {
 }
 
 .qoute-container {
-    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,7 +171,6 @@ button {
 }
 
 .call-outer-container {
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
