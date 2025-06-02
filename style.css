@@ -75,7 +75,7 @@ body {
 }
 
 .sign-up, .call-inner-container {
-    background-color: #A020F0;
+    background-color: rgba(0,0,0,0);
 }
 
 .hero-image {
@@ -141,10 +141,11 @@ body {
 
 button:hover {
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 button {
-    border-radius: 8px;
+    border-radius: 20px;
 }
 
 .qoute-container {
@@ -201,8 +202,8 @@ button {
     margin: 0px;   
 }
 
-.call-inner-container .sign-up {
-    border: 3px solid white;
+.sign-up {
+    border: 2px solid white;
 }
 
 .footer {
