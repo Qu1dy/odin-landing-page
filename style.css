@@ -137,6 +137,7 @@ button:hover {
 .qoute-container {
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -148,3 +149,9 @@ button:hover {
     font-style: italic;
     font-weight: lighter;
 }
+
+.quote-author {
+    margin-top: 0px;
+    color: black;
+}
+
