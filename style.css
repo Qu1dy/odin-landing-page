@@ -165,3 +165,7 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
+
+.call-inner-container {
+    background-color: #3882F6;
+}
