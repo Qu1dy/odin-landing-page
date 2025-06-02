@@ -49,12 +49,16 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-left: 64px;
-    padding-right: 64px;
-    padding-bottom: 80px;
+    padding-right: 256px;
+}
+
+.header {
+    padding-bottom: 36px;
 }
 
 .hero {
     gap: 64px;
+    padding-bottom: 80px;
 }
 
 .main-text {
@@ -73,8 +77,8 @@ body {
 
 .hero-image {
     margin-top: 48px;
-    width: 627px;
-    height: 284px;
+    width: 500px;
+    height: 250px;
 }
 
 .sign-up {
