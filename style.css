@@ -104,6 +104,7 @@ body {
 
 .infos {
     display: flex;
+    gap: 16px;
 }
 
 .info-header {
