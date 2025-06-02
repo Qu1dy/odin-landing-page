@@ -121,6 +121,12 @@ body {
     border-radius: 16px;
 }
 
+.warning {
+    color: red; 
+    font-size: 18px;
+    font-weight: 1000;
+}
+
 .abilities {
     display: flex;
     gap: 36px;
@@ -146,6 +152,7 @@ button:hover {
 
 button {
     border-radius: 20px;
+    border: 2px solid white;
 }
 
 .qoute-container {
