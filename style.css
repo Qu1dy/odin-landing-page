@@ -171,4 +171,6 @@ button:hover {
     background-color: #3882F6;
     width: 900px;
     height: 130px;
+    display: flex;
+    justify-content: space-around;
 }
