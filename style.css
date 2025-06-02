@@ -164,8 +164,11 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 48px;
 }
 
 .call-inner-container {
     background-color: #3882F6;
+    width: 900px;
+    height: 130px;
 }
