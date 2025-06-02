@@ -13,8 +13,8 @@ body {
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: 900;
+    width: 100px;
+    height: auto;
 }
 
 .logo, .hero .main-text {
@@ -49,7 +49,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 156px;
+    padding: 16px 156px 0px 32px;
 }
 
 .header {
@@ -73,7 +73,7 @@ body {
 }
 
 .sign-up, .call-inner-container {
-    background-color: #3882F6;
+    background-color: #A020F0;
 }
 
 .hero-image {
@@ -112,7 +112,7 @@ body {
 .info-image {
     width: 136px;
     height: 136px;
-    border: 5px #3882F6 solid;
+    border: 5px #A020F0 solid;
     border-radius: 16px;
 }
 
