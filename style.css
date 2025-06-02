@@ -103,6 +103,11 @@ body {
     padding-top: 24px;
 }
 
+.info-title {
+    color: black;
+    font-size: 36px;
+    text-align: center;
+}
 
 .info-image {
     width: 136px;
