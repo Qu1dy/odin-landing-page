@@ -191,11 +191,10 @@ button {
     width: 1000px;
     height: 150px;
     border: 5px solid white;
-    border-radius: 500px;
+    border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-radius: 8px;
 }
 
 .call-inner-container .main-text
