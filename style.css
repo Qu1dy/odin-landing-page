@@ -97,6 +97,7 @@ body {
 
 .info-container {
     display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -104,8 +105,10 @@ body {
     padding-top: 24px;
 }
 
-.info-title {
-    color: #A020F0;
+.info-title, .info-header {
+    color: white;
+    text-shadow: 0 0 8px #a239ea, 0 0 12px #5f27cd;
+    font-weight: 700;
     font-size: 36px;
     text-align: center;
 }
@@ -122,13 +125,6 @@ body {
     gap: 36px;
 }
 
-.info-header {
-    font-size: 36px;
-    color: #A020F0;
-    padding-bottom: 16px;
-    font-weight: 900;
-}
-
 .info {
     max-width: 150px;
     align-items: center;
@@ -136,7 +132,10 @@ body {
 
 .info-text {
     text-align: center;
-    color: #959CA4;
+    color: #e0e0e0;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    line-height: 1.4;
 }
 
 button:hover {
@@ -171,6 +170,7 @@ button {
 }
 
 .call-outer-container {
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
