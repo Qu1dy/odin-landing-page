@@ -98,20 +98,13 @@ body {
 .info-image {
     width: 128px;
     height: 128px;
-    border: 4px #3882F6 solid;
+    border: 6px #3882F6 solid;
     border-radius: 10px;
 }
 
 .infos {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
-.info {
-    text-align: center;
-}
-
 
 .info-header {
     font-size: 36px;
