@@ -133,3 +133,9 @@ body {
 button:hover {
     cursor: pointer;
 }
+
+.qoute-container {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 32px 64px;
+}
