@@ -159,3 +159,9 @@ button:hover {
     color: black;
 }
 
+.call-outer-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
