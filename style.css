@@ -120,11 +120,6 @@ body {
     border-radius: 16px;
 }
 
-.warning {
-    color: red; 
-    font-size: 18px;
-    font-weight: 1000;
-}
 
 .abilities {
     display: flex;
