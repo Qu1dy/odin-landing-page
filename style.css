@@ -180,14 +180,14 @@ button {
     color: white;
 }
 
-.call-outer-container {
+.more-outer-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 96px;
 }
 
-.call-inner-container {
+.more-inner-container {
     width: 1000px;
     height: 150px;
     border: 5px solid white;
@@ -197,13 +197,13 @@ button {
     justify-content: space-around;
 }
 
-.call-inner-container .main-text
+.more-inner-container .main-text
 {
     font-size: 24px;
     margin: 0px;   
 }
 
-.call-inner-container .secondary-text {
+.more-inner-container .secondary-text {
     color: #E5E7EB;
     margin: 0px;   
 }
