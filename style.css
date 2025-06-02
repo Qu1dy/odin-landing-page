@@ -162,6 +162,7 @@ button:hover {
 .call-outer-container {
     background-color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 48px;
