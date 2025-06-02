@@ -112,6 +112,7 @@ body {
 .info-header {
     font-size: 36px;
     color: #1F2937;
+    padding-bottom: 16px;
 }
 
 .info {
@@ -121,5 +122,5 @@ body {
 
 .info-text {
     text-align: center;
-    color: #1F2937;
+    color: #959CA4;
 }
