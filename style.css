@@ -1,5 +1,4 @@
 html {
-    background-color: green;
     font-family: 'Roboto';
     color: white;
 }
@@ -78,8 +77,9 @@ body {
 
 .hero-image {
     margin-top: 48px;
-    width: 500px;
-    height: 250px;
+    width: 600px;
+    height: auto;
+    border: 2px solid #A020F0;
 }
 
 
@@ -98,13 +98,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
+    background: linear-gradient(145deg, #0e0b16, #301934, #5f27cd);
     padding-bottom: 48px;
     padding-top: 24px;
 }
 
 .info-title {
-    color: black;
+    color: #A020F0;
     font-size: 36px;
     text-align: center;
 }
@@ -123,7 +123,7 @@ body {
 
 .info-header {
     font-size: 36px;
-    color: #1F2937;
+    color: #A020F0;
     padding-bottom: 16px;
     font-weight: 900;
 }
