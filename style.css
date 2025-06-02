@@ -101,8 +101,8 @@ body {
 
 
 .info-image {
-    width: 164px;
-    height: 164px;
+    width: 136px;
+    height: 136px;
     border: 5px #3882F6 solid;
     border-radius: 16px;
 }
@@ -120,7 +120,7 @@ body {
 }
 
 .info {
-    max-width: 174px;
+    max-width: 150px;
     align-items: center;
 }
 
