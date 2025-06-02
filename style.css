@@ -30,6 +30,7 @@ body {
 }
 
 .links {
+    flex-shrink: 0;
     list-style-type: none;
     display: flex;
     gap: 20px;
