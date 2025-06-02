@@ -17,7 +17,7 @@ body {
     font-weight: 900;
 }
 
-.logo, .main-text {
+.logo, .hero.main-text {
     color: #F9FAF8;
 }
 
@@ -35,7 +35,7 @@ body {
     gap: 20px;
 }
 
-.links a, .secondary-text {
+.links a, .hero.secondary-text {
     color: #E5E7EB;
 }
 
@@ -60,18 +60,18 @@ body {
     padding-bottom: 100px;
 }
 
-.main-text {
+.hero.main-text {
     margin-bottom: 0px;
     font-size: 48px;
     font-weight: 900;
 }
 
-.secondary-text {
+.hero.secondary-text {
     margin-top: 4px;
     max-width: 400px;
 }
 
-.sign-up {
+.sign-up, .call-inner-container {
     background-color: #3882F6;
 }
 
@@ -168,9 +168,14 @@ button:hover {
 }
 
 .call-inner-container {
-    background-color: #3882F6;
     width: 900px;
     height: 130px;
     display: flex;
+    align-items: center;
     justify-content: space-around;
+    border-radius: 8px;
+}
+
+.call-inner-container .main-text, .secondary-text {
+    margin: 0px;   
 }
