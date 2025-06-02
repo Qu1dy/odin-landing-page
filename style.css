@@ -119,8 +119,11 @@ body {
     max-width: 150px;
 }
 
-
 .info-text {
     text-align: center;
     color: #959CA4;
+}
+
+button:hover {
+    cursor: pointer;
 }
