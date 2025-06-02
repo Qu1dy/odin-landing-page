@@ -68,6 +68,7 @@ body {
 
 .secondary-text {
     margin-top: 4px;
+    max-width: 400px;
 }
 
 .sign-up {
